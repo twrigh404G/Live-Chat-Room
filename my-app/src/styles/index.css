@@ -1,4 +1,21 @@
 /* From uiverse.io by @Yaseen549 */
+.userlogin {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+    .dropdown {
+        background-color: blue;
+    }
+
+   }
+
 .input {
     color: #8707ff;
     border: 2px solid #8707ff;
@@ -6,9 +23,21 @@
     padding: 10px 25px;
     background: transparent;
     max-width: 190px;
+    display: block;
+    margin-bottom: 15%;
+    
    }
    
    .input:active {
     box-shadow: 2px 2px 15px #8707ff inset;
    }
+   
+
+   .loginform > label {
+    margin: 0 5px 0 5px;
+   }
+
+
+   
+
    
