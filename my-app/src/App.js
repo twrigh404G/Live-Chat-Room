@@ -1,8 +1,21 @@
+import './styles/index.css'
+
 export default function App() {
+  const userlogedin = false;
   return (
+  <div>
     <div>
-      <h1>It's a beautiful thing!</h1>
+      {!userlogedin ? (
+        <form>
+        <input type="text" name="text" class="input" placeholder="Type something here...."></input>
+      </form>
+      ):(
+        <div>
+          chat room
+        </div>
+      )}
     </div>
+  </div>
   );
 }
 
