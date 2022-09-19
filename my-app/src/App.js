@@ -1,12 +1,14 @@
 import './styles/index.css'
 import React, { useState } from 'react';
+import background from './imgs/twrigh404_voltron_8k_photorealistic_galactic_computer_spaceship_576b3e12-bfcb-47cb-914d-ba3b682bbdd3.png'
 
 
 export default function App() {
   const [userlogedin, setlogin] = useState(false)
+  const [loading, setloading] =useState(false)
 
   return (
-  <div className="usercontainer" style={{backgroundImage: `url(${background})` }}>
+  <div className="usercontainer">
     <div className='userlogin'>
       {!userlogedin ? (
           <div className="loginform">
