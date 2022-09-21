@@ -14,9 +14,11 @@
   width: 100vw;
   height: 100vh;
   background-image: url('../imgs/space.png');
+  object-fit: cover;
   background-size: 100vw;
   margin: 0px;
   padding: 0px;
+  
   
 
 }
